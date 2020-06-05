@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gisgorbadminton"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:9:22-76
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\edb03ed300512ae8da7c146a103a6c79\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\edb03ed300512ae8da7c146a103a6c79\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\edb03ed300512ae8da7c146a103a6c79\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\edb03ed300512ae8da7c146a103a6c79\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\edb03ed300512ae8da7c146a103a6c79\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\edb03ed300512ae8da7c146a103a6c79\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\edb03ed300512ae8da7c146a103a6c79\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:11:5-48:19
+26        android:allowBackup="true"
+26-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:12:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.1] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\51ec9767ead7a598d20dd24a7369e6f6\core-1.0.1\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:13:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:14:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:15:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:16:9-35
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:17:9-40
+34        <activity android:name="com.example.gisgorbadminton.DetailActivity" />
+34-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:18:9-61
+34-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:18:19-49
+35        <!--
+36             The API key for Google Maps-based APIs is defined as a string resource.
+37             (See the file "res/values/google_maps_api.xml").
+38             Note that the API key is linked to the encryption key used to sign the APK.
+39             You need a different API key for each encryption key, including the release key that is used to
+40             sign the APK for publishing.
+41             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+42        -->
+43        <meta-data
+43-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:27:9-29:55
+44            android:name="com.google.android.geo.API_KEY"
+44-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:28:13-58
+45            android:value="@string/google_maps_key" />
+45-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:29:13-52
+46
+47        <activity
+47-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:31:9-33:59
+48            android:name="com.example.gisgorbadminton.MapsActivity"
+48-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:32:13-41
+49            android:label="@string/title_activity_maps" />
+49-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:33:13-56
+50        <activity android:name="com.example.gisgorbadminton.Splashscreen" >
+50-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:34:9-40:20
+50-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:34:19-47
+51            <intent-filter>
+51-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:35:13-39:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:36:17-69
+52-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:36:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:38:17-77
+54-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:38:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity android:name="com.example.gisgorbadminton.MainActivity" >
+57-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:41:9-47:20
+57-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:41:19-47
+58            <intent-filter>
+58-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:42:13-46:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:36:17-69
+59-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:36:25-66
+60
+61                <category android:name="android.intent.category.DEFAULT" />
+61-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:45:17-76
+61-->C:\Users\Baya Rhoga\GISGORBADMINTON\app\src\main\AndroidManifest.xml:45:27-73
+62            </intent-filter>
+63        </activity>
+64        <!-- Needs to be explicitly declared on P+ -->
+65        <uses-library
+65-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\edb03ed300512ae8da7c146a103a6c79\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+66            android:name="org.apache.http.legacy"
+66-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\edb03ed300512ae8da7c146a103a6c79\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+67            android:required="false" />
+67-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\edb03ed300512ae8da7c146a103a6c79\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+68
+69        <provider
+69-->[com.squareup.picasso:picasso:2.71828] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\48da7fadba4524073e8c353d11fde60c\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+70            android:name="com.squareup.picasso.PicassoProvider"
+70-->[com.squareup.picasso:picasso:2.71828] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\48da7fadba4524073e8c353d11fde60c\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+71            android:authorities="com.example.gisgorbadminton.com.squareup.picasso"
+71-->[com.squareup.picasso:picasso:2.71828] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\48da7fadba4524073e8c353d11fde60c\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+72            android:exported="false" />
+72-->[com.squareup.picasso:picasso:2.71828] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\48da7fadba4524073e8c353d11fde60c\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\6fb3f6cd2b75dfe7dd10f87d94351f9e\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\6fb3f6cd2b75dfe7dd10f87d94351f9e\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\6fb3f6cd2b75dfe7dd10f87d94351f9e\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\6fb3f6cd2b75dfe7dd10f87d94351f9e\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\c39f27975e2128f358c90a3c3f9b8fee\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\c39f27975e2128f358c90a3c3f9b8fee\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Baya Rhoga\.gradle\caches\transforms-2\files-2.1\c39f27975e2128f358c90a3c3f9b8fee\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+82    </application>
+83
+84</manifest>
